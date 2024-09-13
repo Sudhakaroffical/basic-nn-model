@@ -1,6 +1,6 @@
 # EX-01 Developing a Neural Network Regression Model
 ### Aim:
-To develop a neural network regression model for the given dataset.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DATE: 30.08.2024**
+To develop a neural network regression model for the given dataset.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DATE: 13.09.2024**
 
 ### Theory:
 Design and implement a neural network regression model to accurately predict a continuous target variable based on a set of input features within the provided dataset. The objective is to develop a robust and reliable predictive model that can capture complex relationships in the data, ultimately yielding accurate and precise predictions of the target variable. The model should be trained, validated, and tested to ensure its generalization capabilities on unseen data, with an emphasis on optimizing performance metrics such as mean squared error or mean absolute error.
@@ -19,8 +19,7 @@ Design and implement a neural network regression model to accurately predict a c
 - STEP 7:Evaluate the model with the testing data.
 
 ## Program:
-#### Developed By: SUDHAKARK - 212222240107
-
+**Developed By: SUDHAKAR K 212222240107**
 ```python
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
@@ -52,38 +51,25 @@ pscale= scaler.transform(p)
 model.predict(pscale)
 
 ```
-## Output:
+### Output:
 
-### Dataset Information:
-##### df.head()
-![image](https://github.com/user-attachments/assets/1e287fd5-b8c1-4976-b54a-841fa9af7691)
-
-
-##### df.info()
-![image](https://github.com/user-attachments/assets/570dfc8c-2e10-4c9a-a401-066b0289f0a2)
-
-
-##### df.describe()
-![image](https://github.com/user-attachments/assets/1b57363f-212c-4833-870c-40a8cac57d44)
-
-
-
+##### Dataset Information:
+**df.head()**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**df.info()**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**df.describe()**<br>
+<img align=top src="https://github.com/user-attachments/assets/c9c19465-2db0-47f8-afb6-49633f892aa6">&emsp;&emsp;&emsp;
+<img align=top  src="https://github.com/user-attachments/assets/c08ce734-2b92-42fb-adf5-0ea3b55e993b">&emsp;&emsp;&emsp;
+<img align=top  src="https://github.com/user-attachments/assets/bde44ad2-8c90-462e-b899-1cd29ec15625">
 
 ##### Training Loss Vs Iteration Plot:
-![image](https://github.com/user-attachments/assets/78dfe13a-7a7d-481b-896f-5bb441b69415)
-
+<img src="https://github.com/user-attachments/assets/67e285f9-96a0-4bee-b8ef-1c40e77f274f">
 
 ##### Test Data Root Mean Squared Error:
-![image](https://github.com/user-attachments/assets/f1626e3f-481e-47ad-9677-db933f24201b)
-
-
+<img src="https://github.com/user-attachments/assets/1a3fd13b-241b-4920-946d-baf3e7680d8b">
 
 ##### New Sample Data Prediction:
-![image](https://github.com/user-attachments/assets/4fcc9615-32f7-4167-b12d-778d4a531b66)
-
-
+<img src="https://github.com/user-attachments/assets/5ea5ea88-e70c-425d-933b-dc7b08cd5560">
 
 ### Result:
 Thus a neural network regression model for the given dataset is developed and the prediction for the given input is obtained accurately.
-
+<br>
+<br>
 
